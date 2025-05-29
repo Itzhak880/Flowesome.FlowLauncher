@@ -1,6 +1,6 @@
 # 💠 Flowesome
 
-**Flowesome** is a simple theme I created, and I want to share it with you!
+**Flowesome** is a simple theme that I want to share with you!
 
 ### ✨ Features
 
