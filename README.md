@@ -40,7 +40,7 @@
 - Upon system color change, the border does not update its color. A quick solution is to restart Flow Launcher (there's a command for that). I just observed this, but I think this problem might not be persistent.
 
 ### 💡 Notes
-- I'm **not** a programmer, I'm just a casual hobbyist. I referenced Flow Launcher's documentation, various online tutorials for XAML/WPF, and relied on basic brain logic, and after much trial and error, I ended up with this.
+- I'm **not** a programmer. I referenced Flow Launcher's documentation, various online tutorials for XAML/WPF, and relied on basic brain logic, and after much trial and error, I ended up with this.
 - In order to achieve [transparent] blur effect while having light/dark mode support, I had to apply opacity to the border's background (line 28), it's the only way. The only problem with this method is the opacity applies to **eveything** (the border itself, text, results, icons, preview, etc.). You may not notice it at all because I set the opacity to 0.8, it's the best I could. I don't think it's that bad, given the fact you get blur together with light/dark support. If you find a better solution (opacity to affect only the background), do tell!
 - The theme is adjusted to my personal preferences, you are welcome to fine-tune it to your liking.
 - This is my first Flow Launcher theme, and probably the last 😂
